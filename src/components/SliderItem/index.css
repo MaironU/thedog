@@ -1,0 +1,22 @@
+
+.slider-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.slider-item-img {
+    border: 1px solid #F1F3F4;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+span {
+    text-align: center;
+    font-size: 10px;
+}
+
+.selected {
+    background-color: #DDB814;
+}

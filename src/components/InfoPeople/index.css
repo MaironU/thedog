@@ -1,0 +1,60 @@
+.info-people {
+    padding: 12px;
+}
+
+.info-people:first-child {
+    margin-top: 70px;
+}
+
+.container-people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+}
+
+.people img {
+    border-radius: 50%;
+}
+
+.people-name span{
+    font-size: 13px;
+}
+
+.people-description {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.info-heart {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.cont-heart{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.info-heart button{
+    border: none;
+    width: 70%;
+    background-color: #DDB814;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
